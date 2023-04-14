@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="assets/css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <label for="cajaEleccion">Escriba su elección:<br>
+        1. Calcular cual número es mayor<br>
+        2. Sumar<br>
+        3. Restar<br>
+        4. Multiplicar<br>
+        5. Dividir <br>
+        6. Mostrar los números ingresados <br>
+        7. Salir <br>
+
+    </label>
+    <input type="text" id="cajaEleccion" value=""><input type="button" value="Activar Formulario" onclick="activarIngresoDatos()">
+    
+    <hr>
+
+    <section id="seccionIngreso">
+        <br>
+        <form id="miFormulario" action="" method="">
+            <label for="cajaNumero1">Ingrese el primer dato:</label>
+            <input type="text" id="cajaNumero1" value="">
+    
+            <label for="cajaNumero2">Ingrese el segundo dato:</label>
+            <input type="number" id="cajaNumero2" value="">
+    
+            <label for="cajaResultado">Resultado:</label>
+            <input type="text" id="cajaResultado" value="" size="60" disabled>
+    
+            <input type="button" value="Evaluar" onclick="evaluarEleccion()">
+            <input type="button" value="Limpiar" onclick="limpiarCampos()">
+        </form>
+
+        <br>
+    </section>
+
+    <hr>
+
+
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
