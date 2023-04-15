@@ -1,4 +1,11 @@
 /*selector por etiqueta*/
+nav{
+    background-color: aquamarine;
+    text-align: center;
+    color:green;
+    font-size:30px;
+}
+
 footer{
     background-color: olive;
     color: white;
