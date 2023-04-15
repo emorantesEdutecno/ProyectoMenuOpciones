@@ -1,3 +1,10 @@
+/*selector por etiqueta*/
+footer{
+    background-color: olive;
+    color: white;
+}
+
+
 /*selectores por id*/
 #seccionIngreso{
     background-color: aqua;
